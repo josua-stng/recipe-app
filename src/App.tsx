@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import './App.css'
-
+import Navbar from './components/Navbar';
+import Participant from './components/Participant';
 
 interface Data {
     id:number,
@@ -25,6 +25,8 @@ function App() {
 
     return (
         <div>
+            <Navbar/>
+            <Participant/>
             {api.length > 0 && api.map((data) => {
                 return (
                     <div key={data.id}>
