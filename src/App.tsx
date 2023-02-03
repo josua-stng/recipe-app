@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
+import ContributorParticipant from './components/ContributorParticipant';
 import Navbar from './components/Navbar';
 import Participant from './components/Participant';
+import PopularRecipe from './components/PopularRecipe';
 
 interface Data {
     id:number,
@@ -27,14 +29,16 @@ function App() {
         <div>
             <Navbar/>
             <Participant/>
-            {api.length > 0 && api.map((data) => {
+            <ContributorParticipant/>
+            <PopularRecipe/>
+            {/* {api.length > 0 && api.map((data) => {
                 return (
                     <div key={data.id}>
                         {data.name}
                        <img src={`${data.image}`} alt="" />
                         </div>
                 )
-            })}
+            })} */}
         </div>
     )
 }
