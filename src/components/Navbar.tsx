@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <div className="header">
-      <div className=" flex justify-between p-7 ">
+      <div className="navbar flex justify-between p-6 md:p-7 fixed w-full top-0 z-40">
         <div className="ml-10">
           <h2 className="text-xl">
             <span className="text-amber-700">Spoonacular</span>{" "}
@@ -38,7 +38,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flex flex-col mt-4 pb-10 mx-auto pl-5 items-center justify-center md:flex md:flex-row">
+      <div className="flex flex-col mt-[78px] md:mt-[84px] pb-10 mx-auto pl-5 items-center justify-center md:flex md:flex-row">
         <div className="mr-10">
           <h1 className="text-5xl font-mono">Food Recipe</h1>
           <p className="text-lg mt-2 font-serif">

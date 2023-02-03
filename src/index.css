@@ -6,7 +6,13 @@
 .header{
     background-image: linear-gradient(to right, rgb(224, 215, 215) , rgb(253, 236, 203));
 }
+.navbar{
+    background-image: linear-gradient(to right, rgb(224, 215, 215) , rgb(253, 236, 203));
+}
 
 .participant{
     background-image: linear-gradient(rgb(252, 232, 232),rgb(255, 255, 255));
+}
+.popular-recipe{
+    background-image: linear-gradient(to right, rgb(224, 215, 215) , rgb(230, 230, 230));
 }
