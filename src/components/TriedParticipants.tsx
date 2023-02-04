@@ -7,7 +7,7 @@ const TriedParticipants= () =>{
                 <p className="mb-4">Lots of comments about us, here's what they said</p>
                 </div>
                 
-                <div className="flex flex-col justify-center items-center gap-12 mx-auto md:flex-row md:p-[15px] md:mx-auto">
+                <div className="flex flex-col justify-center items-center gap-12 mx-auto md:flex-row md:p-[15px] md:flex md:items-center md:mx-auto">
                     <div className="w-[70%] border-2 border-inherit p-5 md:w-[400px]">
                         <img src="https://media.licdn.com/dms/image/D5603AQEn7xehQFYdEw/profile-displayphoto-shrink_800_800/0/1671607292631?e=1680739200&v=beta&t=H9002quy8PIpjeF_y65nOMkzaIxrkwB5TcIPhAj1dWE" alt=""  className="w-[100px] h-[100px] overflow-hidden rounded-full mb-2"/>    
                         <p className="mb-3 font-bold">Edwin Tantawi</p>

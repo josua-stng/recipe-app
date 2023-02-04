@@ -34,7 +34,7 @@ const PopularRecipe = () => {
           <p>that many people like</p>
         </div>
 
-        <div className="mt-5 flex flex-col justify-center items-center gap-10 md:flex-row">
+        <div className="mt-5 grid justify-center items-center gap-10 md:flex md:flex-row">
           {api.map((datas) => {
             return (
               <div>

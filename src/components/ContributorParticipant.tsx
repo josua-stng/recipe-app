@@ -6,7 +6,7 @@ const ContributorParticipant = () => {
                 <h2 className="font-light">These are the people who have contributed a lot to various recipes</h2>
                 <h2 className="font-light">an our platform</h2>
             </div>
-            <div className="grid flex-col justify-center items-center gap-16 md:flex-row ">
+            <div className="grid justify-center items-center gap-16 md:flex md:flex-row ">
                 <div className="">
                     <img src="https://assets.foxdcg.com/dpp-uploaded/images/hells-kitchen/keyart_s23.jpg " alt="" className="w-[300px] h-[190px]" />
 
