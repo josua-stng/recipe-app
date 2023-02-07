@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 interface Data {
   id: number;
@@ -37,7 +38,7 @@ const PopularRecipe = () => {
         <div className="mt-5 grid justify-center items-center gap-10 md:flex md:flex-row">
           {api.map((datas) => {
             return (
-              <div>
+              <div key={datas.id}>
                 <div className="">
                   <img
                     src={`${datas.image}`}
@@ -57,9 +58,10 @@ const PopularRecipe = () => {
           })}
         </div>
         <div className="mt-14">
-          <button className="bg-amber-600 p-4 w-[220px] rounded-lg text-white">
+         <Link to='/recipes'>
+         <button className="bg-amber-600 p-4 w-[220px] rounded-lg text-white">
             See All Recipe
-          </button>
+          </button></Link>
         </div>
       </div>
     </div>
