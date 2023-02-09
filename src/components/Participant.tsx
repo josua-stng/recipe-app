@@ -1,7 +1,7 @@
 const Participant = () => {
     return (
         <div className="participant pt-[50px] pb-[50px]">
-            <div className="flex gap-5  flex-col justify-evenly items-center md:flex-row">
+            <div className="gap flex flex-col gap-10 justify-evenly items-center md:flex md:flex-row">
                 <div className="flex flex-col items-center pb-5">
                     <h1 className="text-4xl font-bold text-red-600 md:text-5xl">450K+</h1>
                     <h2 className="pt-2 text-2xl text-red-500">Recipes</h2>
